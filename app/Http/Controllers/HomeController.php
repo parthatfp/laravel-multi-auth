@@ -28,6 +28,6 @@ class HomeController extends Controller
 
     public function handleAdmin()
     {
-        return view('handleAdmin');
+        return view('backend.handleAdmin');
     }    
 }
